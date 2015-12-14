@@ -2,18 +2,18 @@
 
 ## Rails
 ### Models
-* Project
+* Twit
 
 ### Controllers
-Api::ProjectsController
+Api::TwitsController (create, destroy, index)
 
 ### Views
 
+
 ## Flux
 ### Views (React Components)
-ProjectsIndex.jsx
 Project.jsx
-Form.jsx
+Twits.jsx (nested under Project)
 
 ### Stores
 Project.js
