@@ -1,4 +1,4 @@
-# Phase 1: User Authentication, Note Model and JSON API
+# Phase 2: Flux Architecture and Projects CRUD (2.5 days)
 
 ## Rails
 ### Models
@@ -19,11 +19,16 @@ Form.jsx
 Project.js
 
 ### Actions
-ProjectAction.js
+ApiAction.receiveAllProjects -> triggered by ApiUtil
+ApiActions.receiveProject
+ApiAction.deleteProject
+ProjectActions.fetchAllProject -> triggers ApiUtil
+ProjectActions.createProject
+ProjectActions.editProject
+ProjectActions.destroyProject
 
 ### ApiUtil
 ApiUtil.js
-
 
 ## Gems/Libraries
 * JQuery

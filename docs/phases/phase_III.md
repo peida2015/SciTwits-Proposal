@@ -1,4 +1,4 @@
-# Phase 1: User Authentication, Note Model and JSON API
+# Phase 3: Twits Flux and CRUD(1 day)
 
 ## Rails
 ### Models
@@ -8,22 +8,25 @@
 Api::TwitsController (create, destroy, index)
 
 ### Views
-
+twits/index.json.jbuilder
 
 ## Flux
+Twits
 ### Views (React Components)
 Project.jsx
 Twits.jsx (nested under Project)
+TwitsForm.jsx
 
 ### Stores
-Project.js
+TwitStore.js
 
 ### Actions
-ProjectAction.js
+TwitAction.createTwit -> triggers ApiUtil
+TwitAction.destroyTwit
+TwitAction.receiveAllTwits(project)
 
 ### ApiUtil
 ApiUtil.js
-
 
 ## Gems/Libraries
 * JQuery

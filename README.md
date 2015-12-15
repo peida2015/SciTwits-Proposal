@@ -12,7 +12,6 @@ be built with Ruby on Rails and React.js.  SciTwits allow users to:
 - [ ] Submit Twits about a project
 - [ ] View number of followers
 - [ ] Follow projects
-- [ ] For all users (without logging in), see a heatmap of research similar to StockTwits's
 
 NB: Heatmap will be generated using data from user Followings or PLoS Article Level Metric (ALM) API and graphing capabilities of Highcharts JS charting library.
 
@@ -58,3 +57,4 @@ In this final phase, I will add styling to the pages and seed the database with 
 ## Bonus
 - [ ] users can support a project
 - [ ] owner can add another member to a project
+- [ ] a heatmap of research projects similar to StockTwits's
