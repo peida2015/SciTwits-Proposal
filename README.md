@@ -1,5 +1,8 @@
 # SciTwits
 
+[SciTwits][SciTwits]
+[SciTwits]:http://scitwits.heroku.com
+
 ## Minimum Viable Product
 
 SciTwits is a web application inspired by StockTwits and Kickstarter, and will
